@@ -53,7 +53,12 @@
     color: #2196F3;
 }
 
-
+.navigation-link-color {
+    text-decoration: none;
+    color: #757575;
+    font-size: var(--text-size);
+    font-family: 'Roboto', sans-serif;
+}
 
 
 .navigation {
@@ -67,9 +72,8 @@
     margin-right: 215px; 
 }
 
-.navigation-item {
-    margin-right: 50px;
-}
+
+
 
 .list {
     list-style: none;
@@ -110,27 +114,28 @@
   }
   
 .title {
-    /* font-family: 'Roboto';
-    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.16; */
-
-
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-
-
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-
-color: #FFFFFF;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
   }
+
+.title-adv {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+color: #212121;
+}
 
 .header {
     width: 1600px;
@@ -198,6 +203,10 @@ margin-right: 215px;
     margin-right: 50px;
 }
 
+.link-current {
+    color: #2196f3;
+    text-decoration: none;
+}
 
 .header,
 .link {
@@ -293,7 +302,7 @@ margin-right: 215px;
 .address,
 .contact {
     font-family: 'Raleway', sans-serif;
-    color: rgba(255, 255, 255, 0.6);
+    color: #757575;
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
@@ -304,16 +313,12 @@ margin-right: 215px;
 
 .address .contact:hover,
 .address .contact:focus  {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto';
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    color:var(--accent-color);
+}
 
+.navigation-link-color:hover,
+.navigation-link-color:focus {
+    color:var(--accent-color);
 }
 
 .advantage-list {
@@ -339,6 +344,10 @@ margin-right: 215px;
     color: #212121;
   }
 
-.page-team {
+.test {
+    text-decoration: none;
+}
+
+.link {
     text-decoration: none;
 }
